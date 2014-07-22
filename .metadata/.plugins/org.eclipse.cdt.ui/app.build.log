@@ -1,0 +1,28 @@
+14:06:43 **** Build of configuration Debug for project app ****
+make all 
+Building file: ../src/cr_startup_lpc8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_BUFFER_SIZE=256 -D__USE_LPCOPEN -D__LPC8XX__ -I"D:\Users\dmamalis\Iris\LPC812\app\inc" -I"D:\Users\dmamalis\Iris\LPC812\CMSIS_CORE_LPC8xx\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc8xx.d" -MT"src/cr_startup_lpc8xx.o" -MT"src/cr_startup_lpc8xx.d" -o "src/cr_startup_lpc8xx.o" "../src/cr_startup_lpc8xx.c"
+Finished building: ../src/cr_startup_lpc8xx.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_BUFFER_SIZE=256 -D__USE_LPCOPEN -D__LPC8XX__ -I"D:\Users\dmamalis\Iris\LPC812\app\inc" -I"D:\Users\dmamalis\Iris\LPC812\CMSIS_CORE_LPC8xx\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/mtb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_BUFFER_SIZE=256 -D__USE_LPCOPEN -D__LPC8XX__ -I"D:\Users\dmamalis\Iris\LPC812\app\inc" -I"D:\Users\dmamalis\Iris\LPC812\CMSIS_CORE_LPC8xx\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/mtb.d" -MT"src/mtb.o" -MT"src/mtb.d" -o "src/mtb.o" "../src/mtb.c"
+Finished building: ../src/mtb.c
+ 
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_BUFFER_SIZE=256 -D__USE_LPCOPEN -D__LPC8XX__ -I"D:\Users\dmamalis\Iris\LPC812\app\inc" -I"D:\Users\dmamalis\Iris\LPC812\CMSIS_CORE_LPC8xx\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+../src/sysinit.c:35:20: fatal error: board.h: No such file or directory
+  #include "board.h"
+                    ^
+compilation terminated.
+make: *** [src/sysinit.o] Error 1
+
+14:06:44 Build Finished (took 883ms)
+

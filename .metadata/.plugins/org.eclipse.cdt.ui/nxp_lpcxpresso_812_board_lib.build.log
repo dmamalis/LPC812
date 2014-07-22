@@ -1,0 +1,28 @@
+14:13:20 **** Build of configuration Debug for project nxp_lpcxpresso_812_board_lib ****
+make all 
+Building file: ../src/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/board.d" -MT"src/board.o" -MT"src/board.d" -o "src/board.o" "../src/board.c"
+Finished building: ../src/board.c
+ 
+Building file: ../src/board_sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/board_sysinit.d" -MT"src/board_sysinit.o" -MT"src/board_sysinit.d" -o "src/board_sysinit.o" "../src/board_sysinit.c"
+Finished building: ../src/board_sysinit.c
+ 
+Building target: libnxp_lpcxpresso_812_board_lib.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libnxp_lpcxpresso_812_board_lib.a"  ./src/board.o ./src/board_sysinit.o   
+c:\nxp\LPCXpresso_7.3.0_186\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating libnxp_lpcxpresso_812_board_lib.a
+Finished building target: libnxp_lpcxpresso_812_board_lib.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libnxp_lpcxpresso_812_board_lib.a" ; # arm-none-eabi-objdump -h -S "libnxp_lpcxpresso_812_board_lib.a" >"libnxp_lpcxpresso_812_board_lib.lss"
+   text	   data	    bss	    dec	    hex	filename
+    364	      0	      0	    364	    16c	board.o (ex libnxp_lpcxpresso_812_board_lib.a)
+    204	      0	      0	    204	     cc	board_sysinit.o (ex libnxp_lpcxpresso_812_board_lib.a)
+ 
+
+14:13:21 Build Finished (took 1s.142ms)
+

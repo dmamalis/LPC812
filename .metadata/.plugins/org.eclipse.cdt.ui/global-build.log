@@ -1,0 +1,184 @@
+14:13:15 **** Build of configuration Debug for project lpc_chip_8xx_lib ****
+make all 
+Building file: ../src/acmp_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/acmp_8xx.d" -MT"src/acmp_8xx.o" -MT"src/acmp_8xx.d" -o "src/acmp_8xx.o" "../src/acmp_8xx.c"
+Finished building: ../src/acmp_8xx.c
+ 
+Building file: ../src/chip_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/chip_8xx.d" -MT"src/chip_8xx.o" -MT"src/chip_8xx.d" -o "src/chip_8xx.o" "../src/chip_8xx.c"
+Finished building: ../src/chip_8xx.c
+ 
+Building file: ../src/clock_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/clock_8xx.d" -MT"src/clock_8xx.o" -MT"src/clock_8xx.d" -o "src/clock_8xx.o" "../src/clock_8xx.c"
+Finished building: ../src/clock_8xx.c
+ 
+Building file: ../src/crc_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/crc_8xx.d" -MT"src/crc_8xx.o" -MT"src/crc_8xx.d" -o "src/crc_8xx.o" "../src/crc_8xx.c"
+Finished building: ../src/crc_8xx.c
+ 
+Building file: ../src/gpio_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/gpio_8xx.d" -MT"src/gpio_8xx.o" -MT"src/gpio_8xx.d" -o "src/gpio_8xx.o" "../src/gpio_8xx.c"
+Finished building: ../src/gpio_8xx.c
+ 
+Building file: ../src/i2c_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/i2c_8xx.d" -MT"src/i2c_8xx.o" -MT"src/i2c_8xx.d" -o "src/i2c_8xx.o" "../src/i2c_8xx.c"
+Finished building: ../src/i2c_8xx.c
+ 
+Building file: ../src/iocon_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/iocon_8xx.d" -MT"src/iocon_8xx.o" -MT"src/iocon_8xx.d" -o "src/iocon_8xx.o" "../src/iocon_8xx.c"
+Finished building: ../src/iocon_8xx.c
+ 
+Building file: ../src/pinint_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/pinint_8xx.d" -MT"src/pinint_8xx.o" -MT"src/pinint_8xx.d" -o "src/pinint_8xx.o" "../src/pinint_8xx.c"
+Finished building: ../src/pinint_8xx.c
+ 
+Building file: ../src/pmu_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/pmu_8xx.d" -MT"src/pmu_8xx.o" -MT"src/pmu_8xx.d" -o "src/pmu_8xx.o" "../src/pmu_8xx.c"
+Finished building: ../src/pmu_8xx.c
+ 
+Building file: ../src/ring_buffer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/ring_buffer.d" -MT"src/ring_buffer.o" -MT"src/ring_buffer.d" -o "src/ring_buffer.o" "../src/ring_buffer.c"
+Finished building: ../src/ring_buffer.c
+ 
+Building file: ../src/sct_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sct_8xx.d" -MT"src/sct_8xx.o" -MT"src/sct_8xx.d" -o "src/sct_8xx.o" "../src/sct_8xx.c"
+Finished building: ../src/sct_8xx.c
+ 
+Building file: ../src/spi_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/spi_8xx.d" -MT"src/spi_8xx.o" -MT"src/spi_8xx.d" -o "src/spi_8xx.o" "../src/spi_8xx.c"
+Finished building: ../src/spi_8xx.c
+ 
+Building file: ../src/swm_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/swm_8xx.d" -MT"src/swm_8xx.o" -MT"src/swm_8xx.d" -o "src/swm_8xx.o" "../src/swm_8xx.c"
+Finished building: ../src/swm_8xx.c
+ 
+Building file: ../src/syscon_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/syscon_8xx.d" -MT"src/syscon_8xx.o" -MT"src/syscon_8xx.d" -o "src/syscon_8xx.o" "../src/syscon_8xx.c"
+Finished building: ../src/syscon_8xx.c
+ 
+Building file: ../src/sysinit_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sysinit_8xx.d" -MT"src/sysinit_8xx.o" -MT"src/sysinit_8xx.d" -o "src/sysinit_8xx.o" "../src/sysinit_8xx.c"
+Finished building: ../src/sysinit_8xx.c
+ 
+Building file: ../src/uart_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/uart_8xx.d" -MT"src/uart_8xx.o" -MT"src/uart_8xx.d" -o "src/uart_8xx.o" "../src/uart_8xx.c"
+Finished building: ../src/uart_8xx.c
+ 
+Building file: ../src/wkt_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/wkt_8xx.d" -MT"src/wkt_8xx.o" -MT"src/wkt_8xx.d" -o "src/wkt_8xx.o" "../src/wkt_8xx.c"
+Finished building: ../src/wkt_8xx.c
+ 
+Building file: ../src/wwdt_8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/wwdt_8xx.d" -MT"src/wwdt_8xx.o" -MT"src/wwdt_8xx.d" -o "src/wwdt_8xx.o" "../src/wwdt_8xx.c"
+Finished building: ../src/wwdt_8xx.c
+ 
+Building target: liblpc_chip_8xx_lib.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_chip_8xx_lib.a"  ./src/acmp_8xx.o ./src/chip_8xx.o ./src/clock_8xx.o ./src/crc_8xx.o ./src/gpio_8xx.o ./src/i2c_8xx.o ./src/iocon_8xx.o ./src/pinint_8xx.o ./src/pmu_8xx.o ./src/ring_buffer.o ./src/sct_8xx.o ./src/spi_8xx.o ./src/swm_8xx.o ./src/syscon_8xx.o ./src/sysinit_8xx.o ./src/uart_8xx.o ./src/wkt_8xx.o ./src/wwdt_8xx.o   
+c:\nxp\LPCXpresso_7.3.0_186\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating liblpc_chip_8xx_lib.a
+Finished building target: liblpc_chip_8xx_lib.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_chip_8xx_lib.a" ; # arm-none-eabi-objdump -h -S "liblpc_chip_8xx_lib.a" >"liblpc_chip_8xx_lib.lss"
+   text	   data	    bss	    dec	    hex	filename
+    200	      0	      0	    200	     c8	acmp_8xx.o (ex liblpc_chip_8xx_lib.a)
+     16	      0	      0	     16	     10	chip_8xx.o (ex liblpc_chip_8xx_lib.a)
+    384	      0	      0	    384	    180	clock_8xx.o (ex liblpc_chip_8xx_lib.a)
+    216	      0	      0	    216	     d8	crc_8xx.o (ex liblpc_chip_8xx_lib.a)
+    208	      0	      0	    208	     d0	gpio_8xx.o (ex liblpc_chip_8xx_lib.a)
+     52	      0	      0	     52	     34	i2c_8xx.o (ex liblpc_chip_8xx_lib.a)
+    184	      0	      0	    184	     b8	iocon_8xx.o (ex liblpc_chip_8xx_lib.a)
+     76	      0	      0	     76	     4c	pinint_8xx.o (ex liblpc_chip_8xx_lib.a)
+    120	      0	      0	    120	     78	pmu_8xx.o (ex liblpc_chip_8xx_lib.a)
+    368	      0	      0	    368	    170	ring_buffer.o (ex liblpc_chip_8xx_lib.a)
+    108	      0	      0	    108	     6c	sct_8xx.o (ex liblpc_chip_8xx_lib.a)
+    904	      0	      0	    904	    388	spi_8xx.o (ex liblpc_chip_8xx_lib.a)
+     84	      0	      0	     84	     54	swm_8xx.o (ex liblpc_chip_8xx_lib.a)
+    136	      0	      0	    136	     88	syscon_8xx.o (ex liblpc_chip_8xx_lib.a)
+     88	      0	      0	     88	     58	sysinit_8xx.o (ex liblpc_chip_8xx_lib.a)
+    572	      0	      0	    572	    23c	uart_8xx.o (ex liblpc_chip_8xx_lib.a)
+     64	      0	      0	     64	     40	wkt_8xx.o (ex liblpc_chip_8xx_lib.a)
+    100	      0	      0	    100	     64	wwdt_8xx.o (ex liblpc_chip_8xx_lib.a)
+ 
+14:13:20 **** Build of configuration Debug for project nxp_lpcxpresso_812_board_lib ****
+make all 
+Building file: ../src/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/board.d" -MT"src/board.o" -MT"src/board.d" -o "src/board.o" "../src/board.c"
+Finished building: ../src/board.c
+ 
+Building file: ../src/board_sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M0PLUS -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/board_sysinit.d" -MT"src/board_sysinit.o" -MT"src/board_sysinit.d" -o "src/board_sysinit.o" "../src/board_sysinit.c"
+Finished building: ../src/board_sysinit.c
+ 
+Building target: libnxp_lpcxpresso_812_board_lib.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libnxp_lpcxpresso_812_board_lib.a"  ./src/board.o ./src/board_sysinit.o   
+c:\nxp\LPCXpresso_7.3.0_186\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating libnxp_lpcxpresso_812_board_lib.a
+Finished building target: libnxp_lpcxpresso_812_board_lib.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libnxp_lpcxpresso_812_board_lib.a" ; # arm-none-eabi-objdump -h -S "libnxp_lpcxpresso_812_board_lib.a" >"libnxp_lpcxpresso_812_board_lib.lss"
+   text	   data	    bss	    dec	    hex	filename
+    364	      0	      0	    364	    16c	board.o (ex libnxp_lpcxpresso_812_board_lib.a)
+    204	      0	      0	    204	     cc	board_sysinit.o (ex libnxp_lpcxpresso_812_board_lib.a)
+ 
+14:13:23 **** Build of configuration Debug for project nxp_lpcxpresso_812_periph_uart_rom_int ****
+make all 
+Building file: ../example/src/cr_startup_lpc8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_periph_uart_rom_int\example\inc" -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Os -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/cr_startup_lpc8xx.d" -MT"example/src/cr_startup_lpc8xx.d" -o "example/src/cr_startup_lpc8xx.o" "../example/src/cr_startup_lpc8xx.c"
+Finished building: ../example/src/cr_startup_lpc8xx.c
+ 
+Building file: ../example/src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_periph_uart_rom_int\example\inc" -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/crp.d" -MT"example/src/crp.o" -MT"example/src/crp.d" -o "example/src/crp.o" "../example/src/crp.c"
+Finished building: ../example/src/crp.c
+ 
+Building file: ../example/src/mtb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_periph_uart_rom_int\example\inc" -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/mtb.d" -MT"example/src/mtb.o" -MT"example/src/mtb.d" -o "example/src/mtb.o" "../example/src/mtb.c"
+Finished building: ../example/src/mtb.c
+ 
+Building file: ../example/src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_periph_uart_rom_int\example\inc" -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/sysinit.d" -MT"example/src/sysinit.o" -MT"example/src/sysinit.d" -o "example/src/sysinit.o" "../example/src/sysinit.c"
+Finished building: ../example/src/sysinit.c
+ 
+Building file: ../example/src/uart_rom_int.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_periph_uart_rom_int\example\inc" -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/uart_rom_int.d" -MT"example/src/uart_rom_int.o" -MT"example/src/uart_rom_int.d" -o "example/src/uart_rom_int.o" "../example/src/uart_rom_int.c"
+Finished building: ../example/src/uart_rom_int.c
+ 
+Building target: nxp_lpcxpresso_812_periph_uart_rom_int.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\Debug" -L"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\Debug" -Xlinker -Map="nxp_lpcxpresso_812_periph_uart_rom_int.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_812_periph_uart_rom_int_Debug.ld" -o "nxp_lpcxpresso_812_periph_uart_rom_int.axf"  ./example/src/cr_startup_lpc8xx.o ./example/src/crp.o ./example/src/mtb.o ./example/src/sysinit.o ./example/src/uart_rom_int.o   -lnxp_lpcxpresso_812_board_lib -llpc_chip_8xx_lib
+Finished building target: nxp_lpcxpresso_812_periph_uart_rom_int.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_812_periph_uart_rom_int.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_812_periph_uart_rom_int.axf" "nxp_lpcxpresso_812_periph_uart_rom_int.bin" ; checksum -p LPC812 -d "nxp_lpcxpresso_812_periph_uart_rom_int.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4552	      0	    448	   5000	   1388	nxp_lpcxpresso_812_periph_uart_rom_int.axf
+ 

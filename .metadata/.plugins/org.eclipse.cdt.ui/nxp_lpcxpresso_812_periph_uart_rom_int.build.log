@@ -1,0 +1,41 @@
+14:13:23 **** Build of configuration Debug for project nxp_lpcxpresso_812_periph_uart_rom_int ****
+make all 
+Building file: ../example/src/cr_startup_lpc8xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_periph_uart_rom_int\example\inc" -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Os -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/cr_startup_lpc8xx.d" -MT"example/src/cr_startup_lpc8xx.d" -o "example/src/cr_startup_lpc8xx.o" "../example/src/cr_startup_lpc8xx.c"
+Finished building: ../example/src/cr_startup_lpc8xx.c
+ 
+Building file: ../example/src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_periph_uart_rom_int\example\inc" -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/crp.d" -MT"example/src/crp.o" -MT"example/src/crp.d" -o "example/src/crp.o" "../example/src/crp.c"
+Finished building: ../example/src/crp.c
+ 
+Building file: ../example/src/mtb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_periph_uart_rom_int\example\inc" -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/mtb.d" -MT"example/src/mtb.o" -MT"example/src/mtb.d" -o "example/src/mtb.o" "../example/src/mtb.c"
+Finished building: ../example/src/mtb.c
+ 
+Building file: ../example/src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_periph_uart_rom_int\example\inc" -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/sysinit.d" -MT"example/src/sysinit.o" -MT"example/src/sysinit.d" -o "example/src/sysinit.o" "../example/src/sysinit.c"
+Finished building: ../example/src/sysinit.c
+ 
+Building file: ../example/src/uart_rom_int.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_periph_uart_rom_int\example\inc" -I"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\inc" -I"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/uart_rom_int.d" -MT"example/src/uart_rom_int.o" -MT"example/src/uart_rom_int.d" -o "example/src/uart_rom_int.o" "../example/src/uart_rom_int.c"
+Finished building: ../example/src/uart_rom_int.c
+ 
+Building target: nxp_lpcxpresso_812_periph_uart_rom_int.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\Debug" -L"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\Debug" -Xlinker -Map="nxp_lpcxpresso_812_periph_uart_rom_int.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_812_periph_uart_rom_int_Debug.ld" -o "nxp_lpcxpresso_812_periph_uart_rom_int.axf"  ./example/src/cr_startup_lpc8xx.o ./example/src/crp.o ./example/src/mtb.o ./example/src/sysinit.o ./example/src/uart_rom_int.o   -lnxp_lpcxpresso_812_board_lib -llpc_chip_8xx_lib
+Finished building target: nxp_lpcxpresso_812_periph_uart_rom_int.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_812_periph_uart_rom_int.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_812_periph_uart_rom_int.axf" "nxp_lpcxpresso_812_periph_uart_rom_int.bin" ; checksum -p LPC812 -d "nxp_lpcxpresso_812_periph_uart_rom_int.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4552	      0	    448	   5000	   1388	nxp_lpcxpresso_812_periph_uart_rom_int.axf
+ 
+
+14:13:24 Build Finished (took 1s.883ms)
+
