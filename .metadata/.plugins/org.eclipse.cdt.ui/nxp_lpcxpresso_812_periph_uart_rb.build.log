@@ -1,0 +1,21 @@
+11:28:27 **** Incremental Build of configuration Debug for project nxp_lpcxpresso_812_periph_uart_rb ****
+make all 
+Building file: ../example/src/uart_rb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=512 -I"/home/dmamalis/Iris/LPC812/nxp_lpcxpresso_812_periph_uart_rb/example/inc" -I"/home/dmamalis/Iris/LPC812/lpc_chip_8xx_lib/inc" -I"/home/dmamalis/Iris/LPC812/nxp_lpcxpresso_812_board_lib/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"example/src/uart_rb.d" -MT"example/src/uart_rb.o" -MT"example/src/uart_rb.d" -o "example/src/uart_rb.o" "../example/src/uart_rb.c"
+Finished building: ../example/src/uart_rb.c
+ 
+Building target: nxp_lpcxpresso_812_periph_uart_rb.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/dmamalis/Iris/LPC812/nxp_lpcxpresso_812_board_lib/Debug" -L"/home/dmamalis/Iris/LPC812/lpc_chip_8xx_lib/Debug" -Xlinker -Map="nxp_lpcxpresso_812_periph_uart_rb.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_812_periph_uart_rb_Debug.ld" -o "nxp_lpcxpresso_812_periph_uart_rb.axf"  ./example/src/cr_startup_lpc8xx.o ./example/src/crp.o ./example/src/mtb.o ./example/src/sysinit.o ./example/src/uart_rb.o   -lnxp_lpcxpresso_812_board_lib -llpc_chip_8xx_lib
+Finished building target: nxp_lpcxpresso_812_periph_uart_rb.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_812_periph_uart_rb.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_812_periph_uart_rb.axf" "nxp_lpcxpresso_812_periph_uart_rb.bin" ; checksum -p LPC812 -d "nxp_lpcxpresso_812_periph_uart_rb.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4848	      0	    508	   5356	   14ec	nxp_lpcxpresso_812_periph_uart_rb.axf
+ 
+
+11:28:27 Build Finished (took 162ms)
+

@@ -29,7 +29,7 @@ all: nxp_lpcxpresso_812_periph_uart_rom_int.axf
 nxp_lpcxpresso_812_periph_uart_rom_int.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"D:\Users\dmamalis\Iris\LPC812\nxp_lpcxpresso_812_board_lib\Debug" -L"D:\Users\dmamalis\Iris\LPC812\lpc_chip_8xx_lib\Debug" -Xlinker -Map="nxp_lpcxpresso_812_periph_uart_rom_int.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_812_periph_uart_rom_int_Debug.ld" -o "nxp_lpcxpresso_812_periph_uart_rom_int.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/home/dmamalis/Iris/LPC812/nxp_lpcxpresso_812_board_lib/Debug" -L"/home/dmamalis/Iris/LPC812/lpc_chip_8xx_lib/Debug" -Xlinker -Map="nxp_lpcxpresso_812_periph_uart_rom_int.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_812_periph_uart_rom_int_Debug.ld" -o "nxp_lpcxpresso_812_periph_uart_rom_int.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

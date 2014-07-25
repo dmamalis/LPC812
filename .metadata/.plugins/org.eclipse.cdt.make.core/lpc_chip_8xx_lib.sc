@@ -2,8 +2,8 @@
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="com.crt.advproject.config.lib.debug.609269244;com.crt.advproject.config.lib.debug.609269244.;com.crt.advproject.gcc.lib.debug.409194735;com.crt.advproject.compiler.input.784124293">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/redlib/include"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/features/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/redlib/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/features/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
@@ -345,8 +345,8 @@
 </instance>
 <instance id="com.crt.advproject.config.lib.debug.609269244;com.crt.advproject.config.lib.debug.609269244.;com.crt.advproject.gas.lib.debug.198313993;com.crt.advproject.assembler.input.1209781093">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/redlib/include"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/features/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/redlib/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/features/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
@@ -688,8 +688,8 @@
 </instance>
 <instance id="com.crt.advproject.config.lib.release.1335438757;com.crt.advproject.config.lib.release.1335438757.;com.crt.advproject.gcc.lib.release.830519144;com.crt.advproject.compiler.input.916551331">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/redlib/include"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/features/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/redlib/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/features/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
@@ -1031,8 +1031,8 @@
 </instance>
 <instance id="com.crt.advproject.config.lib.release.1335438757;com.crt.advproject.config.lib.release.1335438757.;com.crt.advproject.gas.lib.release.916596421;com.crt.advproject.assembler.input.1332063226">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/redlib/include"/>
-<includePath path="c:/nxp/lpcxpresso_7.3.0_186/lpcxpresso/tools/features/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/redlib/include"/>
+<includePath path="/usr/local/lpcxpresso_7.3.0_186/lpcxpresso/tools/features/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>

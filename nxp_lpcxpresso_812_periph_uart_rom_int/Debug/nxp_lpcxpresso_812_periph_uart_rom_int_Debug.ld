@@ -4,7 +4,7 @@
  * (c) NXP Semiconductors 2013-2014
  * Generated linker script file for LPC812
  * Created from generic_c.ld (LPCXpresso v7.3 (0 [Build 186] [2014-07-09] ))
- * By LPCXpresso v7.3.0 [Build 186] [2014-07-09]  on Tue Jul 22 14:13:22 CEST 2014
+ * By LPCXpresso v7.3.0 [Build 186] [2014-07-09]  on Wed Jul 23 11:20:40 CEST 2014
  */
 
 
